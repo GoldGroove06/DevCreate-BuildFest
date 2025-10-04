@@ -1,0 +1,10 @@
+from ultralytics import YOLO
+
+model = YOLO('best _new.pt')
+
+input_image_path = 'test2[1].jpg'  # Apni image ka naam yahan likhein
+
+results = model(input_image_path)
+
+print("Prediction is complete.")
+results[0].show()

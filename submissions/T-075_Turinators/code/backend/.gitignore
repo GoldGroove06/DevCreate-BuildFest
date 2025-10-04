@@ -1,0 +1,15 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+__pycache__/
+*.pyc
+venv/
+.env/
+.venv/
+pyvenv.cfg
+Scripts
+Lib
+Include
+share
+temp_frames
+uploads
+outputs
